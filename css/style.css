@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+	overflow: hidden;
+}
+.header{
+	min-height: 50px;
+	background-color: rgba(174, 174, 194, 0.4);
+}
+.logo{
+	float: left;
+	width: 50%;
+}
+.logo a{
+	display: block;
+    text-decoration: none;
+    padding: 0 40px;
+    font-size: 1.5rem;
+    color: #383131;
+    line-height: 47px;
+    border: 1px solid #d7d4d4;
+    transition: all ease 0.4s;
+}
+.logo a:hover{
+	color: red;
+}
+.menu{
+	width: 50%;
+	float: right;
+}
+.menu ul{
+	text-align: center;
+}
+.menu ul li{
+	display: inline-block;
+}
+.menu ul li a{
+	display: block;
+	text-decoration: none;
+    padding: 0 55px;
+    font-size: 1.5rem;
+    color: #383131;
+    line-height: 47px;
+    border: 1px solid #d7d4d4;
+    transition: all ease 0.4s;
+}
+.menu ul li a:hover{
+	color: red;
+}
+.content{
+	padding: 20px 0;
+	margin-top: 1px;
+	background-color: rgba(174, 174, 194, 0.4);
+}
+.blog{
+	width: 60%;
+	float: left;
+	border-right: 1px solid #fff;
+}
+.blog h3{
+	padding-left: 40px;
+	padding-bottom: 14px;
+	letter-spacing: 2px;
+}
+.blog p{
+	padding-left: 40px;
+	padding-right: 10px;
+	line-height: 24px;
+}
+.contact{
+	width: 36%;
+	float: right;
+	padding-right: 50px;
+}
+.contact h3{
+	padding-bottom: 14px;
+	letter-spacing: 2px;
+}
+
+.contact input{
+	width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.contact button{
+	width: 115px;
+    height: 45px;
+    margin-top: 10px;
+    background: transparent;
+   	letter-spacing: 2px;
+    transition: all ease 0.4s;
+}
+.contact button:hover{
+	color: #fff;
+	background: blue;
+}
+
+.bannar{
+	margin-top: 1px;
+}
+.image{
+	padding-left: 41px;
+}
+.image img{
+	width: 33.1%;
+	float: left;
+	margin-right: 3.2px;
+}
+
+.services{
+	margin-top: 3px;
+}
+.text{
+	width: 25%;
+	float: left;
+	text-align: center;
+	background-color: rgba(174, 174, 194, 0.4);
+}
+.text span{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: #7b847b;
+	line-height: 56px;
+	margin: auto;
+	border-radius: 20px 0 20px 0;
+	margin-top: 10px;
+}
+.text h3{
+	letter-spacing: 2px;
+	padding: 10px 0;
+}
+.text p{
+	line-height: 20px;
+	padding-bottom: 10px;
+	margin: 0 40px;
+}
+
+.footer{
+	min-height: 50px;
+	background-color: rgb(173, 171, 171);
+	margin-top: 1px;
+}
+.f-left{
+	width:50%;
+	float: left;
+}
+.f-left p{
+	display: block;
+	line-height: 47px;
+	padding: 0 40px;
+}
+.f-right{
+	width: 50%;
+	float: right;
+}
+.f-right ul{
+	text-align: center;
+}
+.f-right ul li{
+	display: inline-block;
+}
+.f-right ul li a{
+	display: block;
+	padding: 0 85px;
+	line-height: 47px;
+	color: #100101;
+	transition: all ease 0.4s;
+}
+.f-right ul li a:hover{
+	color: #fff;
+}
